@@ -1,0 +1,45 @@
+main {
+    text-align: center;
+    margin-top: 100px;
+    transition: 4s;
+}
+div {
+    height: 100%;
+}
+button{
+    margin: 25px 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+}
+#on {
+    background-color: #0d6efd;
+}
+#on:hover {
+    background-color: #0b5ed7
+}
+#on:active {
+    background-color: #0a58ca
+}
+#off {
+    background-color: #212529;
+}
+#off:hover {
+    background-color: #424649;
+}
+#off:active {
+    background-color: #4d5154;
+}
+.light {
+    background-color: white;
+}
+.dark {
+    background-color: black;
+}
+.opacity-0 {
+    opacity: 0;
+}
+.opacity-100 {
+    opacity: 100;
+}
